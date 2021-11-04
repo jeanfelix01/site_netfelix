@@ -1,14 +1,56 @@
 @charset "utf-8"; 
 body, html {
-  height: 100%;
+  height: 90%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+ 
 }
 
 .bg {
   background-image: url("background.jpg");
-  
-  height: 100%;
-
+  height: 110%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  /* opacity: 0.65; */
 }
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: left;
+  color:black
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+h3 {
+background-color: #111;
+color: #fff;
+padding: 18px;
+font-size: 25px;
+letter-spacing: 10px;
+}
+
+
+.p {
+  color:black;
+  top: 100px;
+  width: 250px;
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+  bottom: 0;
+  size: 18px;
+  }
